@@ -11,11 +11,11 @@ int main()
 	int i = 1;
 	int attempt_count;
 	
-	num_real=rand()%100;
+	num_real=rand()%100+1;
 	
 	do
 	{
-		printf("Enter the exact number you guessed (0-100):");
+		printf("Enter the exact number you guessed (1-100):");
 		scanf("%d",&num_guessed);
 		
 		if(num_guessed==num_real)
